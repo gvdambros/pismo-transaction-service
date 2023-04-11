@@ -1,0 +1,10 @@
+application:
+  name: transaction-service-test
+  port: ':'
+
+db:
+  name: transaction-service
+  schema: public
+  user: transaction-service-app
+  host: localhost
+  port: 5432

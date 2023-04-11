@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  postgres:
+    container_name: transaction-service-postgres
+    image: test-postgres:latest
+    ports:
+      - "5432:5432"

@@ -1,0 +1,33 @@
+### macOS/Linux/Windows ###
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.Trash-*
+
+Thumbs.db
+[Dd]esktop.ini
+*.lnk
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+transaction-service
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# codegen
+internal/gen/db
+internal/gen/mock
+internal/gen/doc
+
+# Database
+data
